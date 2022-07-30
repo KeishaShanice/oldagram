@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldagram</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside>
+        <p>Check out the code <a href="https://github.com/KeishaShanice/oldagram" target="_blank">here</a></p>
+    </aside>
+    <div class="outerPhone">
+        <div class="upperPhone">
+            <div class="topCamera"></div>
+            <div class="camSpeaker">
+                <div class="leftCamera"></div>
+                <div class="speaker"></div>
+            </div>
+        </div>
+        <div class="innerPhone">
+            <div class="container">
+                <header>
+                    <section class="headerContainer">
+                        <div class="headerLogo">
+                            <img  class="logoImage" src="images/logo.png" alt="Oldagram logo">
+                        </div>
+                        <div class="userAvatar">
+                            <img id="userImg" class="profilePic" src="images/user-avatar2.jpg" alt="user avatar picture">
+                        </div>
+                    </section>
+                </header>
+        
+                <main>
+                    <section class="cardContainer">
+        
+                        <section class="profileHeader">
+                            <img id="picPoster" class="profilePic" src="images/avatar-courbet.jpg" alt="courbet profile picture">
+                            <div class="profileHeaderInfo">
+                                <p id="headerName"><span class="bold">Name</span></p>
+                                <p id="headerLocation">Location</p>
+                            </div>
+                        </section>
+        
+                        <section class="imageContainer">
+                            <img id="postPic" src="images/post-courbet.jpg" alt="courbet post image">
+        
+                            <div class="carousel-actions">
+                                <!-- <button id="carousel-button-prev" aria-label="Previous Slide">  < </button>
+                                <button id="carousel-button-next" aria-label="Next Slide"> > </button> -->
+                                <span  class="button" id="carousel-button-prev" aria-label="Previous Slide">  < </span>
+                                <span class="button" id="carousel-button-next" aria-label="Next Slide"> > </span>
+                            </div>
+                        </section>
+        
+                        <div class="footer">
+                            <section class="icons">
+                                <img  id="heartIcon" class="iconImage" src="images/icon-heart.png" alt="heart icon">
+                                <img id="commentIcon" class="iconImage" src="images/icon-comment.png" alt="comment icon">
+                                <img id="messageIcon"  class="iconImage" src="images/icon-dm.png" alt="direct message icon">
+                            </section>
+        
+                            <section>
+                                <p id="likes"><span class="bold">Likes</span></p>
+                                <p id="usernameWords">
+                                    <span class="bold" id="username">Username </span>
+                                    <span id="postWords">words</span>
+                                </p>
+                            </section>
+                        </div>
+                    </section>
+                </main> 
+            </div>
+        </div>
+        <div class="homeButton"></div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

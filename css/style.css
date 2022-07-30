@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.post{
+    display: inline-block;
+}
+
+/* layout*/
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 375px;
+    height: 67px;
+    border-bottom: 2px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContainer{
+    max-width: 375px;
+    height: 580px;
+}
+
+.profileHeader{
+    display: flex;
+    padding: 10px;
+}
+
+.profileHeaderInfo{
+    margin-top: 5px;
+}
+.profileHeaderInfo p{
+    margin: 0px 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    transform: translateY(-30%);
+}
+
+.footer p {
+    margin: 10px 0px;
+}
+
+/* images */
+.logoImage{
+    width: 100%;
+    max-width: 127px;
+    height: 60px;
+}
+
+.profilePic {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#userImg {
+    border: 1px solid rgba(171, 72, 72, 0.5);
+}
+
+#postPic{
+    width: 100%;
+    max-width: 375px;
+    height: 375px;
+}
+
+.iconImage{
+    width: 100%;
+    max-width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.headerLogo{
+    width: 100%;
+    max-width: 127px;
+    margin-left: 10px;
+}
+
+.userAvatar{
+    width: 100%;
+    max-width: 50px;
+    margin-right: 10px;
+    transform: translateY(10%);
+}
+
+.iconImage:hover, .iconImage:active {
+    transform: translateY(-4px);
+}
+
+
+.carousel-item-visible{
+    display: block;
+}
+
+.carousel-item-hidden{
+    display: none;
+}
+
+/* buttons */
+.carousel-actions{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-500%);
+}
+
+.button {
+    border-radius: 40%;
+    padding: 4px 8px;
+    font-size: 24px;
+    border: 1px solid rgba(0,0,0,0.6);
+    background-color: rgba(253, 253, 253, 0.3);
+    margin: 0 2px;
+
+}
+
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    color: #f3ccbf;
+}
+
+.innerPhone {
+    margin: 10px auto 0px auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid black;
+}
+
+.outerPhone {
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    height: 840px;
+    padding: 40px 20px;
+    background-color: #f4ddd5;
+}
+
+.homeButton {
+    border: 2px solid black;
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 3px 1px black inset;
+    margin: 25px auto;
+}
+
+.upperPhone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-15px);
+}
+
+.camSpeaker{
+    display: flex;
+    margin-top: 13px;
+}
+
+.topCamera{
+    width: 13px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 0px 3px 2px black inset;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.leftCamera{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,1);
+    margin-right: 10px;
+}
+
+.speaker{
+    width: 50px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: rgba(28, 27, 27, 0.7);
+}
+
+/* container color */
+.container{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
